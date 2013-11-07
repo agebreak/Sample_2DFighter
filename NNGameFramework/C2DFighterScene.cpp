@@ -34,7 +34,7 @@ void C2DFighterScene::Update( float dTime )
 	NNObject::Update(dTime);
 
 	m_currentTime += dTime;
-	int nFrame = 20 * 0.05 * m_currentTime;
+	int nFrame = 15 * 0.05 * m_currentTime;
 
 	m_pCurrentBG = m_pBG[nFrame % 16];
 	m_pCurrentChar = m_pChar[nFrame % 115];
