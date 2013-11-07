@@ -112,7 +112,9 @@
     <ClCompile Include="SpriteExampleScene.cpp">
       <Filter>Example\SpriteExample</Filter>
     </ClCompile>
-    <ClCompile Include="C2DFighterScene.cpp" />
+    <ClCompile Include="C2DFighterScene.cpp">
+      <Filter>2DFighter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NNApplication.h">
@@ -175,6 +177,8 @@
     <ClInclude Include="SpriteExampleScene.h">
       <Filter>Example\SpriteExample</Filter>
     </ClInclude>
-    <ClInclude Include="C2DFighterScene.h" />
+    <ClInclude Include="C2DFighterScene.h">
+      <Filter>2DFighter</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
